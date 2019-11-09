@@ -20,6 +20,11 @@ spring:
       connection-timeout: 30000
       connection-test-query: SELECT 1
 
+  data:
+    elasticsearch:
+      cluster-name: yanshi-es  #节点名字，默认elasticsearch
+      cluster-nodes: 127.0.0.1:9300  #节点地址，多个节点用逗号隔开
+
 mybatis-plus:
   mapper-locations: classpath:mapper/*.xml
 #  global-config:
