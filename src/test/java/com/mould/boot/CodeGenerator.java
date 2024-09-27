@@ -19,12 +19,12 @@ import com.baomidou.mybatisplus.generator.engine.FreemarkerTemplateEngine;
 
 /**
  * 代码自动生成
- * @author 才子
+ * @author lizk
  */
 public class CodeGenerator {
-	static String projectPath="C:\\lizk\\java\\IDEA\\mould";
+	static String projectPath="C:\\lizk\\java\\springboot\\mould";
 
-	static String[] tableNames= {"pass_word"};//修改成自己的表名,多个用逗号隔开
+	static String[] tableNames= {"news"};//修改成自己的表名,多个用逗号隔开
 
 
 //放开以下注释
